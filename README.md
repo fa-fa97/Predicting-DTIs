@@ -4,14 +4,13 @@ In this project, we predict drug-target interactions from a heterogeneous networ
 ### Data gathering and preparation
 The pioneer step for these problems is data gathering. Regarding the validation of [DTINet](https://github.com/luoyunan/DTINet) dataset has consisted of several drug-related databases, I think it would seem to have more precise results. I used these files for my project:
 
-`drug.txt`
-`protein.txt`
-`disease.txt`
-`se.txt`
-`mat_drug_se.txt`
-`mat_protein_protein.txt`
-`mat_protein_drug.txt`
-`mat_drug_protein.txt`
-`mat_drug_drug.txt`
-`mat_protein_disease.txt`
-`mat_drug_disease.txt`
+`drug.txt`: list of drug names
+`protein.txt`: list of protein names
+`disease.txt`: list of protein names
+`se.txt`: list of side effect names
+`mat_drug_se.txt`: Drug-SideEffect association matrix
+`mat_protein_protein.txt`: Protein-Protein interaction matrix
+`mat_drug_protein.txt`: Drug_Protein interaction matrix 
+`mat_drug_drug.txt`: Drug-Drug interaction matrix
+`mat_protein_disease.txt`: Protein-Disease association matrix
+`mat_drug_disease.txt`: Drug-Disease association matrix
