@@ -14,4 +14,5 @@ The initial step for these problems is data gathering. Regarding the validation 
 - `mat_drug_drug.txt`: Drug-Drug interaction matrix
 - `mat_protein_disease.txt`: Protein-Disease association matrix
 - `mat_drug_disease.txt`: Drug-Disease association matrix
+
 After this part, it turned to build our heterogeneous network. We made a CSV file containing all of the edges existing in this graph. Also, we devoted a number to each row of this file to indicate the type of the edges. Another column containing the number of each row is defined. All of these changes made our heterogeneous network. At this level, we applied these variations on the main_db.csv file.
