@@ -18,4 +18,5 @@ The initial step for these problems is data gathering. Regarding the validation 
 After this part, it turned to build our heterogeneous network. We made a CSV file containing all of the edges existing in this graph. Also, we devoted a number to each row of this file to indicate the type of the edges. Another column containing the number of each row is defined. All of these changes made our heterogeneous network. At this level, we applied these variations on the main_db.csv file.
 
 ## Step 2
+### utilizing Edge2vec node embedding algorithm
 In this step, we shoud employ a node embedding learning method to describe our network in a lower dimension without missing important information. In this case, due to the type of our graph which was heterogeneous, we had some choices. In some cases, we were familiar with a novel embedding method was named "Edge2vec" which the innovation of this rather than to the other algorithms was cosideration of relations' types between nodes. We applied this procedure to our network with these hyperparameters: 
