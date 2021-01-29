@@ -20,3 +20,5 @@ After this part, it turned to build our heterogeneous network. We made a CSV fil
 ## Step 2
 ### utilizing Edge2vec node embedding algorithm
 In this step, we shoud employ a node embedding learning method to describe our network in a lower dimension without missing important information. In this case, due to the type of our graph which was heterogeneous, we had some choices. In some cases, we were familiar with a novel embedding method was named "Edge2vec" which the innovation of this rather than to the other algorithms was cosideration of relations' types between nodes. We applied this procedure to our network with these hyperparameters: 
+
+[1] Here is the link of our paper : https://ieeexplore.ieee.org/abstract/document/9066013/
